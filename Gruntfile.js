@@ -12,7 +12,7 @@ module.exports = function( grunt ) {
 		configs: ['copy']
 	}
 
-	var brands = ['brand1', 'brand2', 'brand3'];
+	var brands = ['brandFoo', 'brandBar', 'brandBaz'];
 
 	// We need some objects to assign later
 	var sass = {};

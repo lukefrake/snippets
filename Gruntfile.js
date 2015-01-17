@@ -55,7 +55,6 @@ module.exports = function( grunt ) {
 	// Get the configObject together ready to send to Grunt
 	var configObject = {
 		tasks: tasks,
-		awsKeys: grunt.file.readJSON( 'aws-keys.json' ), // Read the file
 		watch: {
 			templates: {
 				files: ['src/pages/*.hbs', 'src/partials/*.hbs', 'src/layouts/*.hbs', 'src/configs/*.json'],

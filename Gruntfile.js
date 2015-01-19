@@ -133,7 +133,7 @@ module.exports = function( grunt ) {
 	// Have to put uglify in after, because of it's lay out
 	_.forEach( brands, function( brand ) {
 		configObject.uglify[brand] = {
-			files = {}
+			files: {}
 		};
 		configObject.uglify[brand].files['dist/' + brand + '/js/general.min.js'] = ['src/scripts/core/availability.js', 'src/scripts/core/payment.js'];
 	} );
